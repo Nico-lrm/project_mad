@@ -1,0 +1,60 @@
+/* Première section */
+section#intro-hobbies table {
+    border-spacing: 5rem;
+}
+section#intro-hobbies table td {
+    display: block;
+}
+section#intro-hobbies table td:first-child, section#intro-hobbies table h1 {
+    text-align: center;
+}
+section#intro-hobbies table td:first-child {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+section#intro-hobbies table p {
+    text-align: justify;
+}
+/* Deuxième section */
+section#detail-hobbies table p {
+    text-align: justify;
+}
+section#detail-hobbies table {
+    border-spacing: 2.4rem;
+}
+section#detail-hobbies table:first-child tr td:first-child {
+    width: 30%;
+}
+section#detail-hobbies  #rpg-maker{
+    width: 100%;
+}   
+section#detail-hobbies a {
+    color: #555;
+    text-decoration: none;
+    transition: 0.1s;
+}
+section#detail-hobbies a:hover {
+    color: #aaa;
+    text-decoration: none;
+}
+section#detail-hobbies table:nth-child(2n) tr td:last-child {
+    text-align: center;
+    vertical-align: middle;
+}
+section#detail-hobbies table:nth-child(2n) tr td:first-child {
+    width: 60%;
+}
+section#detail-hobbies table:nth-child(3) tr td:first-child{
+    width: 30%;
+}
+
+section#detail-hobbies table:last-child span {
+    position: relative;
+    bottom: 75px;
+    left: 15px;
+    font-size: 26px;
+    font-weight: 500;
+}
+section#detail-hobbies table:last-child img {
+    border-radius: 50%;
+}

@@ -1,0 +1,16 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    color: #444;
+    line-height: 1.5;
+}
+.content-adjust {
+    width: 75%;
+    margin: auto;
+}
+.icon {
+    float: left; 
+    padding-right: 0.3rem;
+}

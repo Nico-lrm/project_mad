@@ -1,0 +1,57 @@
+/* Formulaire */
+main label {
+    display: block;
+    margin: 0.5rem 0;
+    color: #444;
+}
+main p {
+    text-align: justify;
+}
+main table td:first-child {
+    width: 60%;
+}
+main table {
+    border-spacing: 5rem;
+    padding-top: 6rem;
+}
+main input, main textarea {
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+    box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.075);
+}
+main input:active, main textarea:active {
+    border: 1px solid cornflowerblue;
+}
+footer {
+    position: absolute;
+    width: 100% !important;
+    bottom: 0;
+}
+
+.btn-link {
+    padding: 1rem;
+    background-color: var(--primary);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    transition: 0.25s;
+    margin-top: 2rem;
+}
+.btn-link:hover {
+    transform: translate(0, -10px);
+    box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.4);
+}
+
+#errorBody, #errorSubject {
+    font-size: 11px;
+    padding-top: 0.5rem;
+}

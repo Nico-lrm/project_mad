@@ -1,0 +1,128 @@
+/* Globale */
+section {
+    padding: 3.5rem 0;
+}
+/* Première section */
+section#introduction {
+    padding: 9.5rem 0 25rem 0;
+    background: url(../../img/background/wave.svg), linear-gradient(180deg, rgba(21,101,192,1) 0%, rgba(54,128,203,1) 35%, rgba(110,179,231,1) 100%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: white;
+}
+section#introduction  table{
+    border-spacing: 5rem;
+}
+section#introduction h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+section#introduction p {
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: justify;
+}
+section#introduction td:first-child img {
+    max-width: 380px;
+    border-radius: 50%;
+    filter: contrast(115%);
+}
+section#introduction td p {
+    text-align: justify;
+}
+/* Deuxième section */
+section#skills table.main-table {
+    width: 32%;
+    display: inline-block;
+    font-size: 12px;
+    margin:0 0.25rem;
+}
+section#skills table table {
+    width: 100%;
+}
+section#skills .row-skill-dev {
+    display: block;
+    margin: 0.25rem 0;
+}
+section#skills td.main-cell {
+    min-height: 350px;
+    display: block;
+    padding: 0.5rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+section#skills img {
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    margin-right: 0.5rem;
+}
+section#skills i {
+    font-size: 14px;
+    position: relative;
+    top: 0.75rem;
+}
+section#skills p.presentation {
+    padding-bottom: 1.25em;
+    text-align: justify;
+}
+section#skills table#others td {
+    vertical-align: top;
+    
+}
+section#skills table#others tr {
+    display: block;
+    margin: 0.75rem 0;
+}
+section#skills table#others p {
+    margin: 0;
+}
+section#skills table:not(#others) p, section#skills table:not(#others) h3 {
+    text-align: justify;
+}
+section#skills span, section#skills h3 {
+    color: var(--primary);
+}
+section#skills span {
+    font-weight: 500;
+}
+section#skills table table:not(#others) tr {
+    display: block;
+    margin: 0.5rem 0;
+}
+/* Troisième section */
+section#experiences h3, section#experiences h5, section#experiences p {
+    margin: 0.1rem;
+    text-align: justify;
+}
+section#experiences table {
+    border-left: 1px solid;
+    margin-bottom: 2rem;
+}
+section#experiences table td{
+    display: block;
+    margin-left: 2.5rem;
+}
+section#experiences table td::before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    right: 60px;
+    top: 35px;
+    margin: 0;
+    border: 1px solid #bbb;
+    transition: 0.3s;
+}
+section#experiences table td:hover::before {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+section#experiences i {
+    margin-right: 0.5rem;
+}

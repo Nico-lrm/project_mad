@@ -1,0 +1,92 @@
+header {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: #de3641;
+}
+header a {
+    display: block;
+}
+header ul {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+header ul li {
+    text-align: center;
+    width: calc(250px - 2rem);
+    padding: 1rem;
+}
+header ul li.brand {
+    text-align: center;
+    width: calc(250px - 2rem);
+    padding: 1rem;
+    font-size: 76px;
+}
+header ul li:not(.brand) {
+    position: relative;
+    transition: 0.1s;
+}
+header ul li:not(.brand):nth-child(4) {
+    top: 7rem;
+}
+header ul li:not(.brand):nth-child(3) {
+    top: 14rem;
+}
+header ul li:not(.brand):nth-child(2) {
+    top: 21rem;
+}
+header ul li:hover a.list-item-link {
+    transform: translate(7.5px, 0);
+}
+header ul li:not(.brand):hover {
+    background-color: #e46971;
+}
+header h1 {
+    font-size: 2.5rem;
+}
+header .icon {
+    float: none;
+    position: relative;
+    top: 0.13rem;
+    padding: 0;
+}
+header ul li a.list-item-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.1s;
+}
+header ul li a.brand {
+    color: #ffffff;
+    text-decoration: none;
+}  
+/* Section Sous-Lien */
+/* Stylisation des sous-liens de la navbar  */
+header .content-dropdown {
+    display: none;
+    position: absolute;
+    min-width: 10rem;
+    top: 0rem;
+    left: 15.6rem;
+    z-index: 1;
+    box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.25);
+}
+/* Couleur de fond au passage de la souris des sous-liens */
+/* Afficher le contenu caché lors du survol du lien principal */
+header .dropdown:hover .content-dropdown {
+    display: block;
+}
+/* Sous-liens cachés */
+header .content-dropdown a {
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+    background-color: #de3641;
+} 
+header .content-dropdown a:hover {
+    background-color: #e46971;
+    transform: translate(7.5px, 0);
+    box-shadow: -11px 0px 5px 0px rgba(0,0,0,0.3);
+} 

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:'ubuntu', sans-serif;
+} 
+
+body{
+    background: linear-gradient(to right,#0f73a1,#060477);
+    }
+
+    .resume{
+      width: 800px;
+      background: rgba(238, 231, 235, 0.918);
+      margin: 25px auto;
+      display:flex ;
+      
+    }
+
+    .left{
+     background: #2d2b31;
+     width: 260px;
+     padding: 0 22px;
+
+    }
+
+    .right{
+     width: calc(100% - 250px);
+
+    }
+
+    .left .img_holder{
+      text-align: center;
+      padding: 20px 0;
+
+    }
+
+    .left .img_holder{
+      width: 200px;
+      border-radius: 30px;
+
+    }
+
+    .pb{
+     padding-bottom: 20px;
+
+    }
+    
+    .title{
+      font-size:24px;
+      font-weight: weight 700;
+      text-transform:uppercase ;
+      letter-spacing: 5px;
+      padding-bottom: 10px;
+      color: #cf9e17;
+      position: relative;
+      text-align: right;
+      margin-bottom: 15px;
+    }
+    .title:before{
+      content:"" ;
+      position:absolute;
+      top: 35;
+      right: 0;
+      width: 50px;
+      height: 3px;
+    }
+
+    .left .icon{
+       font-size: 21px;
+       color: #13509e;
+    }
+
+    .left .text{
+        color: #eb910a;
+        text-transform: uppercase;
+        font-size: 13px;
+
+    }
+
+    .contact .li_wrap{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .contact .li_wrap .icon{
+      width: 50px;
+      height: 50px;
+      background: rgb(17, 16, 16);
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+    }
+
+    .contact .li_wrap .text{
+       width: calc(100% - 50px);
+       word-break: break-word;
+    }
+    
+    .skills ul,
+    .hobbies ul {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+    }
+    
+    .skills .li_wrap,
+    .hobbies .li_wrap{
+      width: 100px;
+      height: 100px;
+      margin-bottom: 15px;
+      border-radius: 15px;
+      background: rgb(17, 16, 16);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .skills .li_wrap .text,
+    .hobbies .li_wrap .text{
+      margin-top: 5px;
+    }
+    
+    .hobbies .li_wrap{
+      border: 2px solid rgb(64, 67, 250);
+    }
+    .skills  .li_wrap{
+      border: 2px solid rgb(64, 67, 250);
+    }
+    .hobbies .li_wrap:hover{
+        background: rgb(46, 66, 66);
+    }
+    .skills .li_wrap:hover{
+      background: rgb(46, 66, 66);
+    }
+
+    .header{
+      background:#2d2b31;
+    }
+    .header{
+       background:  #2d2b31;
+       padding: 15px 30px;
+       color: #1e1bbe;
+       height: 180px;
+    }
+
+    .header .name{
+       font-size: 48px;
+       color:   #cf9e17;
+       text-transform: uppercase;
+       font-weight: 700;
+    }
+
+    .header .role{
+       font-weight: 300;
+       font-size: 48px;
+    }
+
+    .right_inner .diplomes{
+      margin-top: 30px;
+    }
+
+    .right_inner .li_wrap{
+      display: flex;
+      margin-bottom: 16px;
+    }
+
+    .right_inner .li_wrap .date{
+      width: 100px;
+      color: #110f58;
+      padding-left: 10px;
+    }
+
+    .right_inner .li_wrap .info{
+       width:calc(100%-100px);
+       padding-left: 25px;
+       position: relative;
+    }
+    .right_inner .li_wrap .info_title{
+       text-transform: uppercase;
+       font-weight: 700;
+       letter-spacing: 4px;
+       color: #110f58 ;
+    }
+    .right_inner .li_wrap .info_com{
+      font-weight: 300;
+      font-size: 14px;
+      margin-top: 3px;
+      color: #eb7e01;
+    }
+
+    .right_inner .li_wrap .info_cont{
+       margin-top: 15px;
+       color: #2d2b31;
+    }
+    .right_inner .li_wrap .info:before{
+      content: "";
+      position: absolute;
+      top: 3px;
+      left: 0;
+      width: 10px;
+      height: 10px;
+      background: #13509e;
+      border-radius: 50%;
+     }
+     .right_inner .li_wrap .info:after{
+      content: "";
+      position: absolute;
+      top: 9px;
+      left: 4px;
+      width: 2px;
+      height: 90%;
+      background: #144586;
+      border-radius: 50%;
+     }

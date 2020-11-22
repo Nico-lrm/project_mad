@@ -1,0 +1,31 @@
+footer {
+    border-top: 1px solid #ddd;
+}
+footer td#main-footer {
+    display: block;
+}
+footer td:not(#main-footer) {
+    display: none;
+}
+footer td#main-footer h3 {
+    display: none;
+}
+footer ul {
+    padding: 0.75rem;
+    margin: 0;
+    text-align: center;
+}
+footer li {
+    list-style: none;
+    display: inline-block;
+}
+footer li a {
+    margin: 0 0.75rem;
+    color: #555;
+    text-decoration: none;
+    transition: 0.1s;
+}
+footer li a:hover {
+    color: #aaa;
+    text-decoration: none;
+}

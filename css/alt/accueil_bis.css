@@ -1,0 +1,81 @@
+section#home table {
+    padding: 1rem 0 0rem 0;
+}
+section#home td, section#home a {
+    display: block;
+}
+section#home td:first-child {
+    text-align: center;
+}
+section#home td:last-child {
+    width: 65%;
+    text-align: justify;
+    margin: auto;
+}
+section#home td:last-child h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+section#home p {
+    font-size: 1.1rem;
+}
+section#presentation {
+    background: url(../../img/background/wave-bis.svg), white;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+section#presentation td, section#home tr, section#presentation a {
+    display: inline-block;
+}
+section#presentation #photo-nico {
+    float: left;
+    margin-right: 2rem;
+}
+section#presentation #photo-ghali{
+    float: right;
+    margin-left: 2rem;
+}
+section#presentation table {
+    padding-bottom: 2.5rem;
+    padding-top: 10rem;
+}
+section#presentation table td {
+    padding: 1rem 0 3rem 0;
+    margin: 1rem 0;
+}
+section#presentation table td:first-child {
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+section#presentation table td p {
+    text-align: justify;
+}
+section#presentation a.btn-link {
+    padding: 1rem;
+    background-color: #de3641;
+    letter-spacing: 0.3rem;
+    font-weight: 550;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin:0 0.5rem;
+    text-align: center;
+    width: 105px;
+    transition: 0.1s;
+    position: relative;
+    top: 2rem;
+}
+section#presentation a.btn-link:hover {
+    background-color: #e46971;
+}
+section#presentation .icon {
+    display: none;
+}
+section#presentation p {
+    font-size: 1.1rem;
+}
+
+
+section#presentation h2 {
+    font-size: 1.75rem;
+}
