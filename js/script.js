@@ -1,12 +1,13 @@
-/* Accent en code ASCII */
+/* Accent en code ASCII et regex */
 var eAccentGrave = String.fromCharCode(232);
 var eAccentAigu = String.fromCharCode(233);
+var regex = /^[A-Za-z0-9.',!?()% ]+$/;
 
 /* Vérification du champs "Objet" */
 $("#subject").focusout(function() {
     var subject = $(this).val();
     if (subject.length >= 4) {
-        if (subject.match(RegExp(/^[A-Za-z0-9 ]+$/))) {
+        if (subject.match(RegExp(regex))) {
             $(this).css("border", "1px solid #70ca7b");
             $("#errorSubject").text("");
         } else {
@@ -29,7 +30,7 @@ $("#subject").focusout(function() {
 $("#body").focusout(function() {
     var body = $(this).val();
     if (body.length >= 4) {
-        if (body.match(RegExp(/^[A-Za-z0-9.',!?()% ]+$/))) {
+        if (body.match(RegExp(regex))) {
             $(this).css("border", "1px solid #70ca7b");
             $("#errorBody").text("");
         } else {
@@ -49,17 +50,16 @@ $("#body").focusout(function() {
 })
 
 /* Vérification du formulaire à l'envoi */
-$("#submit").click(function(e) {
+$("#form").submit(function(e) {
     var subject = $("#subject").val(); 
-    var body = $("#body").val().split(" ").join("%20"); 
+    var body = $("#body").val(); 
     if (body.length < 4 || subject.length < 4) {
         alert("L'un des "+ eAccentAigu +"l"+ eAccentAigu +"ments est trop court.")
         e.preventDefault();
         return false;
-    } else if (!body.match(RegExp(/^[A-Za-z0-9.',!?()% ]+$/)) || !subject.match(RegExp(/^[A-Za-z0-9 ]+$/))) {
+    } else if (!body.match(RegExp(regex)) || !subject.match(RegExp(regex))) {
         alert("L'un des "+ eAccentAigu +"l"+ eAccentAigu +"ments n'est pas "+ eAccentAigu +"crit correctement.")
         e.preventDefault();
         return false;
     }
-    $("#form").serialize().submit;
-}) 
+})
