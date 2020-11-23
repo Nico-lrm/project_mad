@@ -1,0 +1,46 @@
+main table:first-child {
+    width: 100%;
+    text-align: center;
+}
+table {
+    border-spacing: 25px;
+}
+#pin_lcap {
+    position: relative;
+    right: 26.8rem;
+    bottom: 12.5rem;
+    transition: 0.25s;
+    
+}
+#pin_lcap:hover, #pin_bvs:hover, #pin_ams:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#pin_bvs {
+    position: relative;
+    transition: 0.25s;
+    right: 26.57rem;
+    bottom: 13.2rem;
+}
+#pin_ams {
+    position: relative;
+    transition: 0.25s;
+    right: 25.4rem;
+    bottom: 19.1rem;
+}
+map, area {
+    cursor: pointer;
+}
+#second_part, #third_part {
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+#second_part, #third_part, #first_part, #fourth_part {
+    text-align: justify;
+    line-height: 2;
+    text-indent: 6rem;
+}
+caption {
+    font-size: 60px;
+}
