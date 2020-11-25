@@ -1,5 +1,6 @@
 footer {
     border-top: 1px solid #ddd;
+    background-color: #f1f1f1;
 }
 footer td#main-footer {
     display: block;

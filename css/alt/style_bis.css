@@ -11,11 +11,13 @@ body {
 main, footer {
     margin-left: 250px;
 }
+/* Ajuste le contenu pour créer une marge sur les côtés */
 .content-adjust {
     width: 90%;
     margin: auto;
 }
-.icon {
+/*  */
+.icon:not(div) {
     float: left; 
     padding-right: 0.3rem;
 }

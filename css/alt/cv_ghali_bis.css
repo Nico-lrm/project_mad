@@ -5,16 +5,11 @@ main *{
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family:'ubuntu', sans-serif;
     line-height: 1;
 } 
 
-body{
-    background: linear-gradient(to right,#0f73a1,#060477);
-    }
-
     .wrapper {
-      padding: 10rem 0;
+      padding: 5rem 0;
     }
 
     .resume{
@@ -76,7 +71,7 @@ body{
 
     .left .icon{
        font-size: 21px;
-       color: #13509e;
+       color: #de3641;
     }
 
     .left .text{
@@ -135,10 +130,10 @@ body{
     }
     
     .hobbies .li_wrap{
-      border: 2px solid rgb(64, 67, 250);
+      border: 2px solid rgb(212, 85, 93);
     }
     .skills  .li_wrap{
-      border: 2px solid rgb(64, 67, 250);
+      border: 2px solid rgb(212, 85, 93);
     }
     .hobbies .li_wrap:hover{
         background: rgb(46, 66, 66);
@@ -153,7 +148,7 @@ body{
     .header{
        background:  #2d2b31;
        padding: 15px 30px;
-       color: #1e1bbe;
+       color: #de3641;
        height: 180px;
     }
 
@@ -180,7 +175,7 @@ body{
 
     .right_inner .li_wrap .date{
       width: 100px;
-      color: #110f58;
+      color: #de3641;
       padding-left: 10px;
     }
 
@@ -193,7 +188,7 @@ body{
        text-transform: uppercase;
        font-weight: 700;
        letter-spacing: 4px;
-       color: #110f58 ;
+       color: #de3641 ;
     }
     .right_inner .li_wrap .info_com{
       font-weight: 300;
@@ -213,7 +208,7 @@ body{
       left: 0;
       width: 10px;
       height: 10px;
-      background: #13509e;
+      background: #de3641;
       border-radius: 50%;
      }
      .right_inner .li_wrap .info:after{
@@ -223,6 +218,6 @@ body{
       left: 4px;
       width: 2px;
       height: 90%;
-      background: #144586;
+      background: #de3641;
       border-radius: 50%;
      }

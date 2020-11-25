@@ -35,12 +35,27 @@ map, area {
     background-size: cover;
     width: 350px;
     height: 250px;
+    border: 1px solid #666;
 }
 #second_part, #third_part, #first_part, #fourth_part {
     text-align: justify;
     line-height: 2;
     text-indent: 6rem;
 }
-caption {
+h1 {
     font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0.25rem;
+}
+a#link_part {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #0089ff;
+    width: fit-content;
+    margin: auto;
+}
+a#link_part:hover {
+    text-decoration: underline;
 }

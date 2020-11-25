@@ -9,6 +9,10 @@ section#intro-hobbies table td:first-child, section#intro-hobbies table h1 {
 section#intro-hobbies table p {
     text-align: justify;
 }
+section#intro-hobbies h1 {
+    margin: 0;
+    padding: 1rem 0;
+}
 /* Deuxième section */
 section#detail-hobbies table p {
     text-align: justify;
