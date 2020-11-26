@@ -10,7 +10,7 @@ var uCriconflexe = String.fromCharCode(251);
 var iTrema = String.fromCharCode(239)
 var carre = String.fromCharCode(178);
 var regexEmail = /^[A-Za-z0-9._-]+@[A-Za-z._-]+\.[a-z]{2,4}$/;
-var regex = /^[A-Za-z0-9.',!?()% \n]+$/;
+var regex = /^[A-Za-z0-9.',!?()%\- \n]+$/;
 
 
 /* Vérification du champs "Objet" */

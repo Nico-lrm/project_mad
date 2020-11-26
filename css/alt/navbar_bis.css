@@ -28,14 +28,19 @@ header ul li:not(.brand) {
     position: relative;
     transition: 0.1s;
 }
-header ul li:not(.brand):nth-child(4) {
+header ul li:not(.brand):nth-child(5) {
     top: 7rem;
 }
-header ul li:not(.brand):nth-child(3) {
+header ul li:not(.brand):nth-child(4) {
     top: 14rem;
 }
-header ul li:not(.brand):nth-child(2) {
+header ul li:not(.brand):nth-child(3) {
     top: 21rem;
+}
+#change_style {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 header ul li:hover a.list-item-link {
     transform: translate(7.5px, 0);

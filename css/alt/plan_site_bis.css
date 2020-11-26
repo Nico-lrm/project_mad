@@ -1,0 +1,33 @@
+main {
+    padding-top: 5rem;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 250px);
+}
+main caption {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+main table td {
+    display: inline-block;
+    width: 30%;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+}
+main table a {
+    text-decoration: none;
+    color: #111;
+    transition: 0.25s;
+}
+main table a:hover {
+    color: #aaa;
+}
+main table td:first-child {
+    margin-left: 25rem;
+}
+main .main-link-list {
+    list-style: none;
+}
