@@ -5,6 +5,7 @@ main table:first-child {
 table {
     border-spacing: 25px;
 }
+/* Petite épingle sur la carte */
 #pin_lcap {
     position: relative;
     right: 26.8rem;
@@ -28,9 +29,11 @@ table {
     right: 25.4rem;
     bottom: 19.1rem;
 }
+/* Changement du curseur pour le script jQuery */
 map, area {
     cursor: pointer;
 }
+/* Préparation des cadres pour les photos */
 #second_part, #third_part {
     background-size: cover;
     width: 350px;
@@ -48,6 +51,7 @@ h1 {
     text-align: center;
     margin-bottom: 0.25rem;
 }
+/* Présentation du lien pour Wikipédia */
 a#link_part {
     text-align: center;
     display: block;

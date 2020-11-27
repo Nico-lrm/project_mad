@@ -107,6 +107,7 @@ section#experiences h3, section#experiences h5, section#experiences p {
     margin: 0.1rem;
     text-align: justify;
 }
+/* Affichage du fil conducteur de la timeline */
 section#experiences table {
     border-left: 1px solid;
     margin-bottom: 2rem;
@@ -115,6 +116,7 @@ section#experiences table td{
     display: block;
     margin-left: 2.5rem;
 }
+/* Affichage des ronds pour la timeline */
 section#experiences table td::before {
     content: "";
     display: inline-block;

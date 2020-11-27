@@ -28,6 +28,7 @@ main table a:hover {
 main table td:first-child {
     margin-left: 25rem;
 }
+/* Masquer les liens*/
 main .main-link-list {
     list-style: none;
 }

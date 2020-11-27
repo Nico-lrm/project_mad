@@ -1,3 +1,4 @@
+/* Présentation du site - Accueil */
 section#home {
     background: url(../../img/background/wave.svg), linear-gradient(180deg, rgba(21,101,192,1) 0%, rgba(54,128,203,1) 35%, rgba(110,179,231,1) 100%);
     background-position: bottom;
@@ -26,6 +27,7 @@ section#home .content-adjust tr td p {
     font-weight: 300;
     text-align: justify;
 }
+/* Présentation des intégrateurs - Accueil */
 #photo-nico, #photo-ghali  {
     width: 250px;
     height: 250px;
@@ -55,6 +57,7 @@ section#presentation table.content-adjust tr td p{
 section#presentation img {
     border-radius: 50%;
 }
+/* Composant Bouton */
 section#presentation a.btn-link {
     padding: 1rem;
     margin: 0.5rem;

@@ -1,3 +1,4 @@
+/* Enlever le formatage standard des navigateurs */
 html, body {
     padding: 0;
     margin: 0;
@@ -8,10 +9,12 @@ html, body {
 main p, p{
     line-height: 1.5;
 }
+/* Classe permettant d'ajuster le contenu */
 .content-adjust {
     width: 75%;
     margin: auto;
 }
+/* Régler les icones */ 
 .icon:not(div) {
     float: left; 
     padding-right: 0.3rem;

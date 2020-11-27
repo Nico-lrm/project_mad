@@ -35,6 +35,7 @@ main h1 {
     text-align: left;
     font-size: 3rem;
 }
+/* Composant Bouton */
 .btn-link {
     padding: 1rem;
     background-color: #de3641;

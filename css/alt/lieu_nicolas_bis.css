@@ -10,6 +10,7 @@ main table:first-child {
 main table {
     border-spacing: 25px;
 }
+/* Epingle de la carte */
 #pin_lcap {
     position: relative;
     right: 26.8rem;
@@ -33,9 +34,11 @@ main table {
     right: 25.4rem;
     bottom: 19.1rem;
 }
+/* Curseur pour la fonction jQuery de la carte */
 map, area {
     cursor: pointer;
 }
+/* Positionnement des cadres pour l'image */
 #second_part, #third_part {
     background-size: cover;
     width: 350px;

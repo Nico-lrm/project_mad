@@ -72,6 +72,8 @@ $("#form").submit(function(e) {
         e.preventDefault();
         return false;
     }
+    var url = "mailto:lormiernicolas60@outlook.fr?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+    document.location = url;
 })
 
 

@@ -33,6 +33,7 @@ footer table.content-adjust td:not(#arrow-up) {
     margin: auto;
     vertical-align: top;
 }
+/* Flèche de retour en haut de la page */
 footer table.content-adjust td#arrow-up {
     border: 1px solid #bbb;
     padding: 0.5rem;

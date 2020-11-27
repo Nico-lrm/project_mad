@@ -45,7 +45,6 @@ section#detail-hobbies table:nth-child(2n) tr td:first-child {
 section#detail-hobbies table:nth-child(3) tr td:first-child{
     width: 30%;
 }
-
 section#detail-hobbies table:last-child span {
     position: relative;
     bottom: 75px;
