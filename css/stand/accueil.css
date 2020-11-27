@@ -26,6 +26,10 @@ section#home .content-adjust tr td p {
     font-weight: 300;
     text-align: justify;
 }
+#photo-nico, #photo-ghali  {
+    width: 250px;
+    height: 250px;
+}
 section#presentation {
     padding-bottom: 5rem;
 }
